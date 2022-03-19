@@ -139,10 +139,8 @@ int main()
 	
 	push(&head, 13);
 	
-	append(&head, 7);
-
-	insertAfter(head->next, 3);
-
+	append(&head, 3);
+	
 	cout << "DLL yang dibuat adalah: ";
 	printList(head);
 
